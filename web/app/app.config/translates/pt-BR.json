@@ -1,0 +1,93 @@
+{
+  // GLOBALS - MESSAGES
+  "ERROR_GLOBAL_INTERNAL": "Ocorreu um erro inexperado.",
+  "fieldInvalid": "Campo Inválido",
+  "fieldsInvalids": "Alguns campos estão inválidos.",
+  "geolocationIsNotSupportedByThisBrowser": "Este navegador não pode informar sua localização.",
+  "SAVE": "Salvar",
+  "CANCEL": "Cancelar",
+  "SELECT": "Selecione",
+  "NO_REGISTER_FOUND": "Nenhum registro encontrado",
+  "YES": "Sim",
+  "NO": "Não",
+  "SAMPLE": "Exemplo",
+  "BEGIN_DATE": "Data de Início",
+  "END_DATE": "Data de Fim",
+  "TODAY": "Hoje",
+  "CLEAR": "Limpar",
+  "CLOSE": "Fechar",
+  "ALL": "Todos",
+  "SEARCH": "Pesquisar",
+  "CITY": "Cidade",
+  "STATE": "Estado",
+  "COUNTRY": "País",
+  "PRICE": "Preço",
+  "NAME": "Nome",
+  "FREE": "Grátis",
+
+  // GLOBALS - FIELDS
+  "FIELD_NAME": "Nome",
+  "FIELD_ADDRESS": "Endereço",
+  "FIELD_PHONE": "Telefone",
+  "FIELD_SITE": "Site",
+  "FIELD_EMAIL": "Email",
+  "FIELD_MESSAGE": "Mensagem",
+  "FIELD_TITLE": "Título",
+  "FIELD_TAGS": "Tags",
+  "FIELD_EXIBITION_ORDER": "Ordem de Exibição",
+
+  // PROMOTER
+  "promoterSaveSuccess": "Organizador salvo com sucesso.",
+  "emailOrPasswordInvalids": "Usuário ou Senha inválidos.",
+  "promoterExists": "Organizador já esta cadastrado.",
+  "doYouWantDeletePromoter": "Deseja excluir o Organizador {0}?",
+
+  // EVENT
+  "saveEventSuccess": "Evento salvo com sucesso.",
+  "deleteEventSuccess": "Evento excluído com sucesso.",
+  "doYouWantDeleteTheEvent": "Deseja excluir o evento <b>{0}</b>?",
+  "EVENT_LIMIT_HIGHLIGHT": "Limite de eventos em Destaque já foi atingido.",
+  "imageNeedBeBigger": "A imagem precisa ter um tamanho minímo de {0} pixels de largura e {1} pixels de altura.",
+  "pleaseCheckTheAddressIsThatYouWant": "Por favor confira, o endereço desejado é este?<br>Endereco: <b>{0}</b>.",
+  "MESSAGE_EVENT_WANT_REMOVE_THIS_TICKET" : "Deseja realmente remover este tipo de inscrição?",
+  "ERROR_EVENT_TICKETS_TYPE_INVALID" : "Existem Tickets inválidos.",
+  "ERROR_EVENT_NO_TICKETS_TYPE" : "O Evento precisa ter ao minímo um tipo de Inscrição.",
+  "ERROR_EVENT_ALREADY_REGISTRATION" : "Este evento não pode ser excluído por que já possui Inscritos.",
+  "ERROR_TICKET_HAS_SUBSCRIBERS" : "Este Ticket não pode ser excluído por que já possuí inscritos.",
+
+  // PARTNER
+  "MESSAGE_PARTNER_TYPE_REGISTERED": "Tipo de parceiro cadastrado com sucesso.",
+  "ERROR_PARTNER_TYPE_ALREADY_REGISTERED": "Este tipo de parceiro já foi cadastrado.",
+  "MESSAGE_PARTNER_REGISTERED": "Parceiro cadastrado com sucesso.",
+  "FIELD_PARTNER_TYPE": "Tipo de Parceiro",
+  "FIELD_PARTNER_IS_PROMOTER": "É Organizador de Eventos?",
+  "ERROR_DATE_RANGE_IS_NOT_VALID": "O intervalo de datas informada não é válido.",
+  "MESSAGE_PARTNER_WANT_TO_REPLACE_FEATURE_PARTNER": "Deseja substituir o parceiro destaque <b>{0}</b> por este quando salvar?",
+  "MESSAGE_PARTNER_TYPE_UPDATED": "O Tipo de Parceiro foi atualizado com sucesso",
+  "LABEL_PARTNER_NO_RANKED": "Não priorizado",
+  "FIELD_PARTNER_RANKING": "Priorização",
+  "MESSAGE_PARTNER_CREATED": "Parceiro criado com sucesso.",
+  "MESSAGE_PARTNER_UPDATED": "Parceiro atualizado com sucesso.",
+  "MESSAGE_PARTNER_DELETED" : "Parceiro excluído com sucesso.",
+  "DO_YOU_WANT_DELETE_THE_PARTNER": "Deseja excluir o Parceiro <b>{0}</b>?",
+  "TITLE_SEARCH_PARTNERS": "Pesquisa de Parceiros",
+  "DO_YOU_WANT_TO_DELETE_PARTNER_TYPE": "Deseja realmente excluir o tipo de parceiro <b>{0}</b>?",
+  "ERROR_PARTNER_TYPE_CANT_DELETED_HAS_PARTNERS": "Não é possível excluir este tipo de parceiro. Existem parceiros vinculados.",
+  "ERROR_PARTNER_CANT_DELETED_HAS_EVENTS" : "Não é possível excluir este parceiro. Existem Eventos vinculados.",
+  "ERROR_PARTNER_CREATE_NAME_ALREADY_REGISTERED": "Já foi cadastrado um parceiro com este nome.",
+
+
+  // TIPS
+  "TITLE_TIPS_LIST": "Lista de Dicas",
+  "TITLE_TIPS_CREATE": "Cadastro de Dicas",
+  "DO_YOU_WANT_TO_DELETE_TIP": "Deseja realmente excluir a dica <b>{0}</b>?",
+  "MESSAGE_TIPS_DELETED_SUCCESS": "Dica excluída com sucesso.",
+  "MESSAGE_TIP_WANT_TO_REPLACE_CURRENT_EXIBITION_ORDER_OF_TIP": "Já existe uma dica ocupando essa posição. Ao salvar esta dica você estará reordenando as dicas. Deseja continuar?",
+  "MESSAGE_TIP_CREATED_SUCCESS": "Dica criada com sucesso.",
+  "MESSAGE_TIP_UPDATED_SUCCESS": "Dica atualizada com sucesso.",
+
+  // CONFIG-SYSTEM
+  "CONFIG_SYSTEM_SAVE_SUCCESS" : "Configuração salva com sucesso.",
+  "CONFIG_SYSTEM_DELETE_SUCCESS" : "Configuração excluída com sucesso.",
+  "ERROR_UNIQUE_KEY" : "Já existe uma chave chamada <b>{0}</b>."
+}

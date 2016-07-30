@@ -1,0 +1,74 @@
+ym-login {
+  .vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+  }
+
+  .img-blur {
+    background-image: url("/images/image_login.jpg");
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .field-user {
+    span {
+      border-bottom-left-radius: 0;
+      border-bottom: 0;
+    }
+
+    input {
+      border-bottom-right-radius: 0;
+      border-bottom: 0;
+    }
+  }
+
+  .field-passworld {
+    span {
+      border-top-left-radius: 0;
+      min-width: 36px;
+    }
+
+    input {
+      border-top-right-radius: 0;
+    }
+  }
+
+  .background-image {
+    position: absolute;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 500px;
+    min-height: 500px;
+    margin-top: -250px;
+
+    background-image: url('/images/image_login.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .background-title {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    background-image: url('/images/versao-horizontal-positiva.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-title {
+    margin: 30px;
+    width: 300px;
+  }
+
+  .btn-login {
+    margin-top: 20px;
+  }
+
+}

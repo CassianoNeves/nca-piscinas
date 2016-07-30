@@ -1,0 +1,23 @@
+<form name="formLogin">
+    <div class="background-image text-center">
+      <img class="img-title" src="images/versao-horizontal-positiva.png" alt="" />
+    </div>
+
+    <div class="row vertical-center">
+      <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+        <div class="input-group field-user">
+          <span class="input-group-addon field-user" aria-hidden="true"><i class="fa fa-user"></i></span>
+          <input ng-model="ctrl.administrator.Email" type="text" class="form-control" placeholder="Usuário">
+        </div>
+
+        <div class="input-group field-passworld">
+          <span class="input-group-addon" aria-hidden="true"><i class="fa fa-lock"></i></span>
+          <input ng-model="ctrl.administrator.Password" type="password" class="form-control" placeholder="Senha">
+        </div>
+
+        <div class="btn-login row text-center">
+          <button ng-click="ctrl.doLogin(ctrl.administrator)" class="btn btn-primary"><span>Entrar</span></button>
+        </div>
+      </div>
+    </div>
+</form>

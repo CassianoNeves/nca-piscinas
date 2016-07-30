@@ -1,0 +1,19 @@
+ym-base {
+
+  div[ui-view="menu"] {
+    padding-left: 15px;
+  }
+
+  div[ui-view="container"] {
+    padding-right: 15px;
+
+    &.ng-enter {
+        transition: .9s;
+        opacity: 0;
+    }
+
+    &.ng-enter-active {
+        opacity: 1;
+    }
+  }
+}
